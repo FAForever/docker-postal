@@ -1,2 +1,2 @@
-data/postal/*
-data/mysql/*
+data/
+.idea/
