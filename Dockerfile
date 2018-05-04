@@ -13,7 +13,7 @@ RUN useradd -r -d /opt/postal -s /bin/bash postal
 
 ## Clone postal
 RUN git clone https://github.com/atech/postal.git /opt/postal \
-  && git --git-dir /opt/postal/.git checkout 83315f3a0006fd525b5b3f3ca664387cfcda2a81 \
+  && git --git-dir /opt/postal/.git checkout b264c5bd50cdbf9baefe3c7c7fb6fbfd2cdf56ff \
   && chown -R postal:postal /opt/postal/
 
 ## Install gems required by postal
